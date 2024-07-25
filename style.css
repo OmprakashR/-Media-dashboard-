@@ -242,6 +242,7 @@ h1 {
  }
  .card{
     margin-bottom: 1em;
+    width: 100%;
  }
  .wraper {
     justify-content: space-between;
@@ -261,5 +262,7 @@ h1 {
 .small-cont{
     font-size: 2em;
 }
-
+.justify-content-center-mob{
+    justify-content: center;
+}
   }
