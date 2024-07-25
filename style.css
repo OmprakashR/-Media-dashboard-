@@ -15,6 +15,7 @@
     --Top-BG-Pattern: hsl(225, 100%, 98%);
     --Card-BG: hsl(227, 47%, 96%);
     --Text-main: hsl(228, 12%, 44%);
+    --card-hover:hsl(0, 3%, 93%);
     --Text-sec: hsl(230, 17%, 14%);
 }
 
@@ -26,6 +27,7 @@
     --Top-BG-Pattern: hsl(232, 19%, 15%);
     --Card-BG: hsl(228, 28%, 20%);
     --Text-main: hsl(228, 34%, 66%);
+    --card-hover:hsl(229, 29%, 29%);
     --Text-sec: hsl(0, 0%, 100%);
 }
 
@@ -123,7 +125,7 @@ h1 {
     background-color: var(--Card-BG);
 }
 .card:hover{
-    background-color: hsl(229, 29%, 29%);
+    background-color: var(--card-hover);
     cursor: pointer;
     transition: 0.6s all;
 }
